@@ -22,5 +22,4 @@ def mm():
 if __name__ == '__main__':
     # app.run(host, port, debug, options)
     # 默认值：host="127.0.0.1", port=5000, debug=False
-    print(sys.args[1])
     app.run(host="0.0.0.0", port=3000,debug=False)
